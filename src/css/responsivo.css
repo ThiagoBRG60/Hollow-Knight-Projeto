@@ -1,4 +1,4 @@
-@media (max-width: 769px) {
+@media (max-width: 1000px) {
   main::after {
     background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0) 65%) no-repeat;
     width: 100vw;
@@ -37,30 +37,34 @@
   }
 }
 
-@media (max-width: 650px) {
-    main .personagem .imagem {
-        height: 500px;
-    }
+@media (max-width: 700px) {
+  main .personagem .imagem {
+    height: 400px;
+  }
 
-    .conteudo .logo {
-        width: 200px;
-        height: 75px;
-    }
+  .conteudo .logo {
+    width: 200px;
+    height: 65px;
+  }
 
-    .conteudo {
-        top: -10%;
-    }
+  .conteudo {
+    top: -30%;
+  }
 
-    .conteudo .nome-personagem {
-        font-size: 24px;
-    }
+  .conteudo .nome-personagem {
+    font-size: 24px;
+  }
 
-    .botoes {
-        padding: 10px;
-    }
+  .botoes {
+    padding: 25px;
+  }
 
-    .botoes .botao img {
-        max-width: 100%;
-        max-height: 45px;
-    }
+  .botoes .botao img {
+    max-width: 100%;
+    max-height: 45px;
+  }
+
+  .botao {
+    margin-bottom: 90px;
+  }
 }
